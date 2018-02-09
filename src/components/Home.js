@@ -15,22 +15,21 @@ class Home extends Component {
       infinite: true,
       autoplaySpeed: 5000,
       adaptiveHeight: true,
+      slidesToShow: 1,
       focusOnSelect: true,
-      centerMode: true,
       arrows: false,
       autoplay: true,
       pauseOnHover: false,
-      centerPadding:'35px'
     };
     return (
-      <div>
-        <Slider className="carouselContainer" {...settings}>
-          <div className="eachPicture1"></div>
-          <div className="eachPicture2"></div>
-          <div className="eachPicture3"></div>
-          <div className="eachPicture1"></div>
-          <div className="eachPicture2"></div>
-          <div className="eachPicture3"></div>
+      <div className="carouselContainer">
+        <Slider {...settings}>
+          <div className="eachPicture1" />
+          <div className="eachPicture2" />
+          <div className="eachPicture3" />
+          <div className="eachPicture1" />
+          <div className="eachPicture2" />
+          <div className="eachPicture3" />
           {/* <img src={makeup1} className="eachPicture" />
           <img src={makeup2} className="eachPicture" />
           <img src={makeup3} className="eachPicture" />

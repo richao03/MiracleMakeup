@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Clicker+Script|League+Script|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|League+Script|Sacramento|Arima+Madurai');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
 
@@ -101,7 +101,7 @@ min-width: 0;
 
 .navBarContainer{
   opacity: 0;
-   display: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -142,8 +142,11 @@ font-family: 'League Script';
 }
 .navButton{
 font-size: .6em;
+text-align: center;
 }
 
-
+.bouquet{
+  margin-top:10px;
+}
 
 }

@@ -4,6 +4,8 @@
     flex-direction: column;
   align-items: center;
   justify-content: center;
+      font-family: "Arima Madurai";
+
 }
 
 .socialIcons{
@@ -22,4 +24,8 @@
 .noteInput{
   height:20%;
   width:80%;
+}
+
+.contactParagraph{
+  width:70vw;
 }

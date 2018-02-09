@@ -27,14 +27,15 @@ class About extends Component {
       <div className="centered">
         <img src={makeup4} className="aboutPicture" />
         <div className="aboutParagraph">
-          <h2>
-            this is the story all about how my life got twist turned upside down{' '}
+          <h2 align="center">
+            This is the story all about how my life got twist turned upside down{' '}
           </h2>
+          <h4 align="center">
             And I'd like to take a minute, just sit right there I'll tell you
             how I became the prince of a town called Bel-Air In West
             Philadelphia, born and raised On the playground is where I spent
             most of my days Chillin' out, maxin', relaxin' all cool
-          
+          </h4>
         </div>
       </div>
     );

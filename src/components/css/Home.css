@@ -1,22 +1,26 @@
 .carouselContainer{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  /* flex-direction: row; */
+  /* align-items: center;
+  justify-content: center; */
+      padding: 10px; /* important !! */
+
 }
 
+
+
 .eachPicture1{
-  height:85vh;
+  height:75vh;
   background: url('../../img/makeup1.jpg') no-repeat scroll center center/cover;
 }
 .eachPicture2{
-  height:85vh;
+  height:75vh;
   background: url('../../img/makeup2.jpg') no-repeat scroll center center/cover;
-  
+
 }
 .eachPicture3{
-  height:85vh;
+  height:75vh;
   background: url('../../img/makeup3.jpg') no-repeat scroll center center/cover;
+
 }
 
 @media screen and (max-width: 590px) {
@@ -24,8 +28,8 @@
 .eachPicture2,
 .eachPicture3,
 {
-margin-top:20px;
-
+margin-top:25px;
+height: calc(75vh - 25px);
 }
 }
 

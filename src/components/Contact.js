@@ -51,11 +51,11 @@ class Contact extends Component {
   render() {
     return (
       <div className="centered">
-        <h2>
+        <h2 align="center" className="contactParagraph">
           Thanks for noticing us, we would like to put you on notice, that we
           notice you too
         </h2>
-        <h3>follow us @</h3>
+        <h3 align="center">follow us @</h3>
         <div>
           <img className="socialIcons" src={twitter} />
           <img className="socialIcons" src={facebook} />
