@@ -17,31 +17,31 @@ class Portfolio extends Component {
     return (
       <div className="portfolioContainer">
         <div className="portColumn1">
-          <img className="eachPortfolioPicture" id="portPic1" src={makeup1} />
-          <img className="eachPortfolioPicture" id="portPic2" src={makeup2} />
-          <img className="eachPortfolioPicture" id="portPic3" src={makeup3} />
+          <div id="portPic1">1</div>
+          <div id="portPic2">2</div>
+          <div id="portPic3">3</div>
         </div>
         <div className="portColumn2">
-          <img className="eachPortfolioPicture" id="portPic4" src={makeup2} />
-          <img className="eachPortfolioPicture" id="portPic5" src={makeup1} />
-          <img className="eachPortfolioPicture" id="portPic6" src={makeup3} />
+          <div id="portPic4">4</div>
+          <div id="portPic5">5</div>
+          <div id="portPic6">6</div>
         </div>
         <div className="portColumn3">
-          <img className="eachPortfolioPicture" id="portPic7" src={makeup3} />
-          <img className="eachPortfolioPicture" id="portPic8" src={makeup2} />
-          <img className="eachPortfolioPicture" id="portPic9" src={makeup1} />
+          <div id="portPic7">7</div>
+          <div id="portPic8">8</div>
+          <div id="portPic9">9</div>
         </div>
 
         <div className="portColumn4">
-          <img className="eachPortfolioPicture" id="portPic10" src={makeup3} />
-          <img className="eachPortfolioPicture" id="portPic11" src={makeup2} />
-          <img className="eachPortfolioPicture" id="portPic12" src={makeup1} />
+          <div id="portPic10">10</div>
+          <div id="portPic11">11</div>
+          <div id="portPic12">12</div>
         </div>
 
         <div className="portColumn5">
-          <img className="eachPortfolioPicture" id="portPic13" src={makeup3} />
-          <img className="eachPortfolioPicture" id="portPic14" src={makeup2} />
-          <img className="eachPortfolioPicture" id="portPic15" src={makeup1} />
+          <div id="portPic13">13</div>
+          <div id="portPic14">14</div>
+          <div id="portPic15">15</div>
         </div>
       </div>
     );

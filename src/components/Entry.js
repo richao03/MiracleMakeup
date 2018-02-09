@@ -87,11 +87,10 @@ class Entry extends Component {
           </label>
           Mesesage//tell us about your event*
           <label>
-            <textarea
-              size="45"
+             <textarea
               className="noteInput"
-              cols="40"
-              rows="5"
+              cols="150"
+              rows="15"
               name="note"
               onChange={this.handleNote.bind(this)}
               validations={[required]}

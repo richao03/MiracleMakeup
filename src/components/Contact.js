@@ -91,10 +91,9 @@ class Contact extends Component {
           Mesesage//tell us about your event*
           <label>
             <textarea
-              size="45"
               className="noteInput"
-              cols="40"
-              rows="5"
+              cols="150"
+              rows="15"
               name="note"
               onChange={this.handleNote.bind(this)}
               validations={[required]}

@@ -1,52 +1,142 @@
-.portfolioContainer{
-    display:flex;
+.portfolioContainer {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-height:auto;
-width:80%;
+  height: auto;
+  margin-top:1vh;
+  width: 70%;
+ 
 }
 
-.eachPortfolioPicture{
-    width:277px; /* Set a small width */
-    min-width: 100px;
-    height:auto;
-    margin:6vh
+.eachPortfolioPicture {
+  width: 277px; /* Set a small width */
+  min-width: 100px;
+  height: auto;
+  margin: 6vh;
 }
 
 .portColumn1,
 .portColumn2,
 .portColumn3,
 .portColumn4,
-.portColumn5{
-  width:100vw;
-  height:auto;
-  display:flex;
+.portColumn5 {
+  width: 81vw;
+  height: auto;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin:1.5vw;
 }
 
-
 #portPic2,
-#portPic3,
-{
-opacity: 0;
+#portPic3 {
+  opacity: 0;
 }
 
 .portColumn2,
 .portColumn3,
 .portColumn4,
-.portColumn5,
-{
+.portColumn5 {
   opacity: 0;
 }
 
 @media screen and (max-width: 575px) {
-.eachPortfolioPicture{
-    width:277px; /* Set a small width */
+  .eachPortfolioPicture {
+    width: 277px; /* Set a small width */
     min-width: 100px;
-    height:auto;
-    margin:2vh
+    height: auto;
+    margin: 2vh;
+  }
 }
+
+
+
+#portPic1,
+#portPic9 {
+  background: url("../../img/makeup1.jpg") no-repeat scroll center center/cover;
+  height:24vw;
+  width:24vw;
+  
+}
+#portPic2,
+#portPic13{
+    background: url("../../img/makeup2.jpg") no-repeat scroll center center/cover;
+  height:24vw;
+  width:24vw;
+  
+}
+
+
+#portPic3,
+#portPic14 {
+  background: url("../../img/makeup1.jpg") no-repeat scroll center center/cover;
+  height:24vw;
+  width:24vw;
+  
+}
+#portPic4,
+#portPic10 {
+  background: url("../../img/mu1.jpg") no-repeat scroll center center/cover;
+  height:24vw;
+  width:24vw;
+  
+}
+#portPic5,
+#portPic11 {
+  background: url("../../img/mu2.jpg") no-repeat scroll center center/cover;
+  height:24vw;
+  width:24vw;
+  
+}
+#portPic6,
+#portPic12 {
+  background: url("../../img/mu3.jpg") no-repeat scroll center center/cover;
+  height:24vw;
+  width:24vw;
+  
+}
+#portPic7,
+#portPic15 {
+  background: url("../../img/makeup3.jpg") no-repeat scroll center center/cover;
+  height:24vw;
+  width:24vw;
+  
+}
+#portPic8 {
+  background: url("../../img/makeup2.jpg") no-repeat scroll center center/cover;
+  height:24vw;
+  width:24vw;
+  
+}
+
+
+
+#portPic1,
+#portPic2,
+#portPic3{
+  width:25vw;
+}
+
+#portPic4,
+#portPic5,
+#portPic6{
+  width:27vw;
+}
+#portPic7,
+#portPic8,
+#portPic9{
+  width:25vw;
+}
+#portPic10,
+#portPic11,
+#portPic12{
+  width:27vw;
+}
+
+#portPic13,
+#portPic14,
+#portPic15{
+  width:25vw;
 }
