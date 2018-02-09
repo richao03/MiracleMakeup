@@ -1,25 +1,27 @@
 .carouselContainer{
+  overflow-y: hidden;
   /* flex-direction: row; */
   /* align-items: center;
   justify-content: center; */
   margin-top:14px;
-      padding: 10px; /* important !! */
-
+      padding-left: 10px; /* important !! */
+      padding-right:10px;
+height:70vh;
 }
 
 
 
 .eachPicture1{
-  height:75vh;
+  height:80vh;
   background: url('../../img/makeup1.jpg') no-repeat scroll center center/cover;
 }
 .eachPicture2{
-  height:75vh;
+  height:80vh;
   background: url('../../img/makeup2.jpg') no-repeat scroll center center/cover;
 
 }
 .eachPicture3{
-  height:75vh;
+  height:80vh;
   background: url('../../img/makeup3.jpg') no-repeat scroll center center/cover;
 
 }
