@@ -1,0 +1,17 @@
+.aboutPicture{
+  width:70vw;
+  height:auto;
+  margin-top:10vh
+}
+
+.centered{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutParagraph{
+  width:80vw;
+  height:auto;
+}

@@ -1,0 +1,39 @@
+.portfolioContainer{
+    display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+height:auto;
+width:80%;
+}
+
+.eachPortfolioPicture{
+    width:277px; /* Set a small width */
+    height:auto;
+    margin:6vh
+}
+
+.portColumn1,
+.portColumn2,
+.portColumn3,
+.portColumn4,
+.portColumn5{
+  width:100vw;
+  height:auto;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+#portPic2,
+#portPic3,
+{
+opacity: 0;
+}
+
+.portColumn2,
+.portColumn3{
+  opacity: 0;
+}

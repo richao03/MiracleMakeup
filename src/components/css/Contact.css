@@ -1,0 +1,25 @@
+
+.centered{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcons{
+  height:55px;
+  width:auto;
+
+}
+
+.mailForm{
+    display: flex;
+    flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.noteInput{
+  height:200px;
+  width:600px;
+}

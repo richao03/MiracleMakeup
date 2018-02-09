@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|League+Script|Sacramento');
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.canvas {
+  background-color: white;
+  height: 15vh;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+
+}
+.bouquet{
+  margin-top:auto;
+  margin-left:8px;
+  margin-right:25px;
+  height:50px;
+  width:55px;
+}
+
+.firstStripe{
+  background-color: white;
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleText{
+  align-self: flex-end;
+}
+
+#secondAnimation{
+  animation-delay: 5.4s
+}
+
+.ml5 {
+font-family: 'League Script';
+  position: relative;
+  font-weight: 100;
+  font-size: 4.0em;
+  color: #402d2d;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  /* display: inline-block; */
+  opacity: 0;
+}
+
+*{
+  color:#402d2d;
+min-height: 0;
+min-width: 0;
+}
+
+
+/* //navbar */
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBarContainer{
+  opacity: 0;
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navButton{
+  border-bottom:1px solid #402d2d;
+  border-radius: 1px;
+  margin-left:20px;
+  margin-right:20px;
+}
+.navButton:hover{
+  color:red;
+}
+
+
+.viewOfComponent{
+  height:85vh;
+  overflow-y:scroll;
+  
+}
+
+.centered{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
