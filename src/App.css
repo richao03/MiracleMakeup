@@ -126,3 +126,20 @@ min-width: 0;
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 575px) {
+
+  .ml5 {
+font-family: 'League Script';
+  position: relative;
+  font-weight: 100;
+  font-size: 3.0em;
+  color: #402d2d;
+}
+.navButton{
+font-size: .6em;
+}
+
+
+
+}

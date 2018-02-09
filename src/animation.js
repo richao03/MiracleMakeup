@@ -97,6 +97,29 @@ export function portfolioAnimation() {
       easing: 'easeInOutBack',
       duration: 1300,
       offset: '-=600'
+    })
+     .add({
+      targets: '.portColumn4',
+      opacity: [0, 1],
+      translateY: ['-10.8em', 0],
+      easing: 'easeInOutBack',
+      duration: 1300,
+      offset: '-=600'
+    })
+     .add({
+      targets: '.portColumn5',
+      opacity: [0, 1],
+      translateY: ['-10.8em', 0],
+      easing: 'easeInOutBack',
+      duration: 1300,
+      offset: '-=600'
+    }) .add({
+      targets: '.portColumn6',
+      opacity: [0, 1],
+      translateY: ['-10.8em', 0],
+      easing: 'easeInOutBack',
+      duration: 1300,
+      offset: '-=600'
     });
 }
 

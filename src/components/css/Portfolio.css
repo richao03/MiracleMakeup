@@ -9,6 +9,7 @@ width:80%;
 
 .eachPortfolioPicture{
     width:277px; /* Set a small width */
+    min-width: 100px;
     height:auto;
     margin:6vh
 }
@@ -34,6 +35,18 @@ opacity: 0;
 }
 
 .portColumn2,
-.portColumn3{
+.portColumn3,
+.portColumn4,
+.portColumn5,
+{
   opacity: 0;
+}
+
+@media screen and (max-width: 575px) {
+.eachPortfolioPicture{
+    width:277px; /* Set a small width */
+    min-width: 100px;
+    height:auto;
+    margin:2vh
+}
 }

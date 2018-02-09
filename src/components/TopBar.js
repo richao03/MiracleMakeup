@@ -29,11 +29,11 @@ class TopBar extends Component {
 
         <div className="navBarContainer">
           <div className="navBar">
-            <div className="navButton" onClick={()=>{this.props.chooseView("home")}}>home</div>
-            <div className="navButton" onClick={()=>{this.props.chooseView("portfolio")}}>portfolio</div>
-            <div className="navButton" onClick={()=>{this.props.chooseView("about")}}>about me</div>
-            <div className="navButton" onClick={()=>{this.props.chooseView("contact")}}>contact me</div>
-            <div className="navButton" onClick={()=>{this.props.chooseView("entry")}}>sweepstakes entry</div>
+            <div className="navButton" onClick={()=>{this.props.chooseView("home")}}>Home</div>
+            <div className="navButton" onClick={()=>{this.props.chooseView("portfolio")}}>Portfolio</div>
+            <div className="navButton" onClick={()=>{this.props.chooseView("about")}}>About Me</div>
+            <div className="navButton" onClick={()=>{this.props.chooseView("contact")}}>Contact Me</div>
+            <div className="navButton" onClick={()=>{this.props.chooseView("entry")}}>Sweepstakes Entry</div>
           </div>
         </div>
       </div>
