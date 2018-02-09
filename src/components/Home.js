@@ -8,8 +8,7 @@ import anime from 'animejs';
 import Slider from 'react-slick';
 
 class Home extends Component {
-  componentDidMount() {
-  }
+  componentDidMount() {}
 
   render() {
     var settings = {
@@ -20,18 +19,24 @@ class Home extends Component {
       centerMode: true,
       arrows: false,
       autoplay: true,
-      pauseOnHover:false
-      // centerPadding:'100px'
+      pauseOnHover: false,
+      centerPadding:'35px'
     };
     return (
       <div>
         <Slider className="carouselContainer" {...settings}>
-          <img src={makeup1} className="eachPicture" />
+          <div className="eachPicture1"></div>
+          <div className="eachPicture2"></div>
+          <div className="eachPicture3"></div>
+          <div className="eachPicture1"></div>
+          <div className="eachPicture2"></div>
+          <div className="eachPicture3"></div>
+          {/* <img src={makeup1} className="eachPicture" />
           <img src={makeup2} className="eachPicture" />
           <img src={makeup3} className="eachPicture" />
           <img src={makeup1} className="eachPicture" />
           <img src={makeup2} className="eachPicture" />
-          <img src={makeup3} className="eachPicture" />
+          <img src={makeup3} className="eachPicture" /> */}
         </Slider>
       </div>
     );

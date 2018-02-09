@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script|League+Script|Sacramento');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+
+
 body {
   margin: 0px;
   padding: 0px;
@@ -127,7 +131,7 @@ min-width: 0;
   justify-content: center;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 590px) {
 
   .ml5 {
 font-family: 'League Script';
