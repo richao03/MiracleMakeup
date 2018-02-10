@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Clicker+Script|League+Script|Sacramento|Arima+Madurai');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
-
+@import url("https://fonts.googleapis.com/css?family=Clicker+Script|League+Script|Sacramento|Arima+Madurai");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
 
 body {
   margin: 0px;
@@ -15,27 +14,26 @@ body {
   width: 100vw;
   left: 0px;
   top: 0px;
-
 }
-.letters-left{
-  margin-right:1vw;
-}
-
-.letters-right{
-  margin-left:1vw;
+.letters-left {
+  margin-right: 1vw;
 }
 
-.bouquet{
-  margin-top:2vh;
-  margin-left:8px;
-  margin-right:25px;
-  height:50px;
-  width:55px;
+.letters-right {
+  margin-left: 1vw;
 }
 
-.firstStripe{
+.bouquet {
+  margin-top: 2vh;
+  margin-left: 8px;
+  margin-right: 25px;
+  height: 50px;
+  width: 55px;
+}
+
+.firstStripe {
   background-color: white;
-  margin-top:25px;
+  margin-top: 25px;
   height: 12vh;
   width: 100vw;
   display: flex;
@@ -43,26 +41,26 @@ body {
   justify-content: center;
 }
 
-.titleText{
+.titleText {
   align-self: flex-end;
 }
 
-#secondAnimation{
-  animation-delay: 5.4s
+#secondAnimation {
+  animation-delay: 5.4s;
 }
 
 .ml5 {
-font-family: 'League Script';
+  font-family: "League Script";
   position: relative;
   font-weight: 100;
-  font-size: 4.0em;
+  font-size: 4em;
   color: #402d2d;
 }
 
 .ml5 .text-wrapper {
   position: relative;
   display: inline-block;
-  padding-top: -.0em;
+  padding-top: -0em;
   padding-right: 0.05em;
   padding-bottom: 0.15em;
   line-height: 1em;
@@ -94,21 +92,20 @@ font-family: 'League Script';
   opacity: 0;
 }
 
-*{
-  color:#402d2d;
-min-height: 0;
-min-width: 0;
+* {
+  color: #402d2d;
+  min-height: 0;
+  min-width: 0;
 }
 
-
 /* //navbar */
-.navBar{
+.navBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.navBarContainer{
+.navBarContainer {
   opacity: 0;
   display: flex;
   flex-direction: row;
@@ -116,53 +113,50 @@ min-width: 0;
   justify-content: center;
 }
 
-.navButton{
-  border-bottom:1px solid #402d2d;
+.navButton {
+  margin-top: 5px;
+  border-bottom: 1px solid #402d2d;
   border-radius: 1px;
-  margin-left:20px;
-  margin-right:20px;
-  margin-bottom:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
-.navButton:hover{
-  color:red;
-}
-
-
-.viewOfComponent{
-  height:80vh;
-  overflow-y:scroll;
-  
+.navButton:hover {
+  color: red;
 }
 
-.centered{
-    display: flex;
+.viewOfComponent {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.centered {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
 @media screen and (max-width: 590px) {
-
   .ml5 {
-font-family: 'League Script';
-  position: relative;
-  font-weight: 100;
-  font-size: 3.0em;
-  color: #402d2d;
-}
-.navButton{
-font-size: .6em;
-text-align: center;
-}
+    font-family: "League Script";
+    position: relative;
+    font-weight: 100;
+    font-size: 3em;
+    color: #402d2d;
+  }
+  .navButton {
+    font-size: 0.6em;
+    text-align: center;
+  }
 
-.bouquet{
-  margin-top:10px;
-  height:40px;
-  width:40px;
-}
+  .bouquet {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+  }
 
-.viewOfComponent{
-  height:73vh;
-}
-
+  .viewOfComponent {
+    height: 73vh;
+  }
 }
